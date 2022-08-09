@@ -1,0 +1,28 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  },
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScaleStuidos/Website.git"
+  },
+  "authors": [
+    "AirplaneGobrr",
+    "Jivi330-max"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScaleStuidos/Website/issues"
+  },
+  "homepage": "https://github.com/ScaleStuidos/Website#readme"
+}

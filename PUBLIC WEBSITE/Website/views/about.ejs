@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Welcome to Scale Studios!</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='/main.css'>
+  <link rel="stylesheet" href="searchbar.css">
+  <script src='main.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script defer>
+    function slideShow() {
+      $("img").first().appendTo('#wrap').fadeOut(3000);
+      $("img").first().fadeIn(3000);
+      setTimeout(slideShow, 4200);
+    }
+
+    $(document).ready(function() {
+      slideShow();;
+    });
+  </script>
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="/">Home</a>
+    <a class="active" href="/about">About</a>
+    <a href="/jobs">Jobs</a>
+    <a href="/contact">Contact</a>
+  </div>
+  <div id="wrap">
+    <img src="bg1.png">
+    <img src="bg2.png">
+    <img src="bg3.png">
+  </div>
+
+  <div class="center">
+    <h1 class="rainbow-text-keyframe" style="font-size: 50px;"> Scale Studios</h1>
+    <h2>About us</h2>
+    <h3>Scale Studios is an up and coming game development studio</h3>
+    <h3>We make games in Roblox and Untiy!</h3>
+    <h3>
+            Note From Owner:
+        Hey guys, my name is Jark0v and I am the owner of Scale Studios. I built Scale Studios to have a great expierence with other programmers. Tower Defense Maniacs is our first game but not even near our last. I would like to thank !!AirplaneGoBrr!! on GitHub for being my first member. Thank you for all the support, we hope to give you guys great games to play.
+    </h3>
+    
+        <h3>ABOUT NODEJS</h3>
+    <h3>As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.</h3>
+
+    <h3>This is in contrast to today's more common concurrency model, in which OS threads are employed. Thread-based networking is relatively inefficient and very difficult to use. Furthermore, users of Node.js are free from worries of dead-locking the process, since there are no locks. Almost no function in Node.js directly performs I/O, so the process never blocks except when the I/O is performed using synchronous methods of Node.js standard library. Because nothing blocks, scalable systems are very reasonable to develop in Node.js.
+
+      If some of this language is unfamiliar, there is a full article on Blocking vs. Non-Blocking.</h3>
+
+    <h3>ABOUT ROBLOX STUDIO</h3>
+    <h3>Studio is the building tool of Roblox that helps you to create the places of your dreams. ... Roblox Studio's features are accessible to a variety of skill levels ranging from a novice to an experienced programmer. Tools range from simple manipulation of objects or terrain, to entering complex scripts and game functions.</h3>  
+
+    <h3>ABOUT UNITY ENGINE</h3>
+    <h3>Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Inc.'s Worldwide Developers Conference as a Mac OS X-exclusive game engine. ... It is considered easy to use for beginner developers and is popular for indie game development.</h3>
+  </div>
+</body>
+
+</html>

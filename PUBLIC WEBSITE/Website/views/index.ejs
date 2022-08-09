@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Welcome to Scale Studios!</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='/main.css'>
+  <link rel="stylesheet" href="searchbar.css">
+  <script src='main.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script defer>
+    function slideShow() {
+      $("img").first().appendTo('#wrap').fadeOut(3000);
+      $("img").first().fadeIn(3000);
+      setTimeout(slideShow, 4200);
+    }
+
+    $(document).ready(function() {
+      slideShow();;
+    });
+  </script>
+</head>
+
+<body>
+  <div class="topnav">
+    <a class="active" href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/jobs">Jobs</a>
+    <a href="/contact">Contact</a>
+  </div>
+  <div id="wrap">
+    <img src="bg1.png">
+    <img src="bg2.png">
+    <img src="bg3.png">
+  </div>
+
+  <div class="center">
+    <h1>Welcome to</h1>
+    <h1 class="rainbow-text-keyframe" style="font-size: 50px;"> Scale Studios</h1>
+  </div>
+</body>
+
+</html>

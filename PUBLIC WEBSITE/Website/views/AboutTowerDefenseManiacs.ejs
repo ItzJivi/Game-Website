@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Welcome to Scale Studios!</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' href='/main.css'>
+        <link rel="stylesheet" href="searchbar.css">
+        <script src='main.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script defer>
+          function slideShow() {
+            $("img").first().appendTo('#wrap').fadeOut(3000);
+            $("img").first().fadeIn(3000);
+            setTimeout(slideShow, 4200);
+          }
+      
+          $(document).ready(function() {
+            slideShow();;
+          });
+        </script>
+</head>
+
+<body>
+    <div class="topnav">
+      <a href="/">About TDM</a>
+      <a class="active" href="/about">About</a>
+      <a href="/jobs">Jobs</a>
+      <a href="/contact">Contact</a>
+    </div>
+    <div id="wrap">
+      <img src="bg1.png">
+      <img src="bg2.png">
+      <img src="bg3.png">
+    </div>
+
+    <div class="center">
+        <h1 class="rainbow-text-keyframe" style="font-size: 50px;"> Scale Studios</h1>
+        <h2>About Tower Defense Maniacs</h2>
+        <h3>Tower Defense Maniacs is a a Zombie based Tower Defense Game. We built this on Roblox studio but we would like to put this on Unreal Engine if this game does well. We have Easy, Medium, Hard difficulties. We will be implementing multi player soon. There are over 30 different races of Zombies that all have their own abilities. Weopons include tanks, traps, turrets, guns etc. Go and check out our game on Roblox.</h3>
+    </div>
+</body>
+
+</html>
